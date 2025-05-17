@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags  -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of the webpage -->
+    <title>Assignment</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main container for the entire content -->
+    <div class="container">
+
+      <!-- Title section with horizontal lines and a heading -->
+      <div class="title-section">
+        <hr>
+        <div class="title">YAY! It's BOGO</div>
+        <hr>
+      </div>
+
+      <!-- Option 1: 1 Unit with 10% discount -->
+      <div class="option expanded" id="option1">
+        <input type="radio" name="unit" value="1" checked>
+        1 Unit<span class="discount">10% Off</span>
+        <br>
+        <span class="std">Standard Price</span>
+
+        <!-- Price details including strikethrough original price -->
+        <div class="price">
+          $10.00 USD
+          <span class="strikethrough">$24.00 USD</span>
+        </div>
+
+        <!-- Two size-color dropdowns, initially hidden -->
+        <div class="size-color hidden">
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+        </div>
+        <div class="size-color hidden">
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Option 2: 2 Units with 20% discount -->
+      <div class="option" id="option2">
+        <input type="radio" name="unit" value="2">
+        2 Unit<span class="discount">20% Off</span>
+
+        <!-- Highlight tag -->
+        <div class="most-popular">MOST POPULAR</div>
+
+        <!-- Price details -->
+        <div class="price">
+          $18.00 USD
+          <span class="strikethrough">$24.00 USD</span>
+        </div>
+
+        <!-- Size-color selection for 2 units -->
+        <div class="size-color hidden">
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+        </div>
+        <div class="size-color hidden">
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Colour</option>
+            <option>Black</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Option 3: 3 Units with 30% discount -->
+      <div class="option" id="option3">
+        <input type="radio" name="unit" value="3">
+        3 Unit<span class="discount">30% Off</span>
+
+        <!-- Price details -->
+        <div class="price">
+          $24.00 USD
+          <span class="strikethrough">$24.00 USD</span>
+        </div>
+
+        <!-- Selection for 3 units -->
+        <div class="size-color hidden">
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+        </div>
+        <div class="size-color hidden">
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>Red</option>
+            <option>Blue</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Section showing total price  -->
+      <div class="total-section">
+        <div class="free-delivery">Free Delivery</div>
+        <div>Total: <strong>$18.00 USD</strong></div>
+      </div>
+
+      <!-- cart Button  -->
+      <button class="add-cart">+ Add to Cart</button>
+
+      <!-- Footer section -->
+      <div class="footer">@ Powered by Pumper</div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
